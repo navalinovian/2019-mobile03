@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".RelativeConstraint"></activity>
-        <activity android:name=".LinearConstraint" />
+        <activity android:name=".LinearConstraint" ></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
