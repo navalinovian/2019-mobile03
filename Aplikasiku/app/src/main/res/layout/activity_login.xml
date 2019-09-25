@@ -95,6 +95,7 @@
 		android:textSize="18sp"
 		app:layout_constraintRight_toRightOf="parent"
 		app:layout_constraintTop_toBottomOf="@id/edt_new_password"
+		android:onClick="clickForgot"
 		/>
 
 	<Button
@@ -111,8 +112,7 @@
 		android:layout_marginTop="80dp"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
+		android:onClick="postLogin"
 		/>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

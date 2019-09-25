@@ -17,5 +17,6 @@ public class ForgotPasswordActivity extends AppCompatActivity {
 	public void postSentRequest(View view) {
 		Intent intent = new Intent(this, ResetPasswordActivity.class);
 		startActivity(intent);
+
 	}
 }
